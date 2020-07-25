@@ -1,0 +1,59 @@
+header * {
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 7vw;
+    text-align: center;
+    padding: 20px;
+}
+
+.wrapper {
+    margin: 60px auto;
+    max-width: 600px;
+    background-color:#f8f9fa;
+    padding: 10px;
+    border: solid white 10px;
+    border-radius: 20px;
+}
+
+.about {
+    align-items: center;
+    text-align: center;
+}
+
+.about .name {
+    color:rgb(129, 198, 68);
+}
+
+.wrapper .my_img img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border: white 4px solid;
+    border-radius: 50%;
+    margin-top: -75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper .about .tag {
+    color: gray;
+}
+
+.wrapper .social-media img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.wrapper .social-media{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper .my_img img:hover{
+    background-color: rgb(129, 198, 68);
+}

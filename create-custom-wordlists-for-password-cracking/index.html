@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wadie Mendja">
+    <!-- SEO -->
+    <title>create custom wordlists for password cracking</title>
+    <meta name="description" content="create custom wordlists for password cracking">
+    <meta name="keywords" content="make rockyou.txt better, better than rockyou.txt, best rockyou.txt, brute attack, dictionary attack">
+    <link rel="icon" type="image/png" href="../img/icon.png">
+    <!-- Open Graph -->
+    <meta property="og:image" content="img/wordlist-generator.png">
+    <meta property="og:description" content="make a better worldlist for your next dictionary attack base on what you know about the target.">
+    <meta property="og:title" content="Create custom wordlists for password cracking">
+    <!-- Labs -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../labs/boostrap.css">
+    <script src="../labs/jQuery.js"></script>
+    <script type="text/javascript">$(function(){$('header').load('../header.html')})</script>
+    <script src="../labs/boostrap.js"></script>
+</head>
+<body>
+    <header></header>
+    <div class="wrapper">
+        <article class="article-wrapper">
+            <h1>Wordlist dictionary generator</h1><hr>
+            <div>
+                <p>Beginners learning <b>brute-forcing attacks</b> against WPA handshakes are often let down by the limitations of default wordlists like <b>rockyou</b> based on stolen passwords. The science of brute-forcing goes beyond using these default lists, allowing us to be more efficient by making <b>customized wordlists</b>. The most basic brute force attack is a <b>dictionary attack</b>, where the attacker works through a dictionary of possible passwords and tries them all.</p>
+                <p>This is why I've created <a href="/"><b><u>worldlist dictionary generator</u></b></a>, to help you make you own worldlist based on what you know about the target.</p>
+            </div>
+            <h2>How it works (use cases):</h2>
+            <div>
+                <p>Lets imagine that your <b>target's password</b> might have his name(first/last name or nick name) followed by numbers (subword + numbers), here is an example which <b>"wadiemendja"</b> represent the target's name followed by four numbers:</p>
+            </div>
+            <a href="../img/wordlist-generator.png"><img src="../img/wordlist-generator.png"></a><br>
+            <div>
+                <p>You can choose the number of numbers you want your subword to be followed by.</p>
+                <p>Here is another example were I used to subwords (subword + five numbers + sunword2):</p>
+            </div>
+            <a href="../img/wordlist-generator-2.png"><img src="../img/wordlist-generator-2.png"></a><br>
+            <div>
+                <p>Or you can only <b>generate numbers</b> by keeping the two other text inputs empty. these sort of lists mostly are useful when targeting accounts or systems protected with a pin code which usually contain 4 digit numbers:</p>
+            </div>
+            <a href="../img/wordlist-generator-3.png"><img src="../img/wordlist-generator-3.png"></a>
+        </article>
+    </div>
+</body>
+</html>
