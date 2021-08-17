@@ -1,0 +1,25 @@
+header *{
+    margin: 0 auto;
+}
+
+.wrapper{
+    padding: 10px;
+}
+
+.wrapper .article-wrapper {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#f8f9fa;
+    border-radius: 20px;
+}
+
+.wrapper .article-wrapper img {
+    display: block;
+    margin: 0 auto;
+    border: lightgray solid 2px;
+    max-width: 650px;
+    width: 100%;
+}
+
